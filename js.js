@@ -67,4 +67,13 @@ window.onload = function () {
       var layout = {barmode: 'group'};
       Plotly.newPlot('div3', data, layout);
 
+      // Graph 4
+      var data = [{
+        values: [19, 26, 55],
+        labels: ['Residential', 'Non-Residential', 'Utility'],
+        type: 'pie'
+      }];
+      
+      Plotly.newPlot('div4', data);
+
 }
