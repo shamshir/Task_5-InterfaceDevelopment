@@ -74,6 +74,11 @@ window.onload = function () {
         type: 'pie'
       }];
       
-      Plotly.newPlot('div4', data);
+      var layout = {
+        height: 400,
+        width: 500
+      };
+      
+      Plotly.newPlot('div4', data, layout);
 
 }
