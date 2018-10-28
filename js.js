@@ -95,4 +95,28 @@ window.onload = function () {
       
       Plotly.newPlot('div5', data, layout);
 
+      // Graph 6
+      var trace1 = {
+        x: ['giraffes', 'orangutans', 'monkeys'],
+        y: [20, 14, 23],
+        name: 'SF Zoo',
+        type: 'bar'
+      };
+      
+      var trace2 = {
+        x: ['giraffes', 'orangutans', 'monkeys'],
+        y: [12, 18, 29],
+        name: 'LA Zoo',
+        type: 'bar'
+      };
+      
+      var data = [trace1, trace2];
+      
+      var layout = {
+        height: 400,
+        width: 500
+      };
+      
+      Plotly.newPlot('div6', data, layout);
+
 }
