@@ -81,4 +81,18 @@ window.onload = function () {
       
       Plotly.newPlot('div4', data, layout);
 
+      // Graph 5
+      var data = [{
+        y: [19, 26, 55],
+        x: ['Residential', 'Non-Residential', 'Utility'],
+        type: 'bar'
+      }];
+      
+      var layout = {
+        height: 400,
+        width: 500
+      };
+      
+      Plotly.newPlot('div5', data, layout);
+
 }
