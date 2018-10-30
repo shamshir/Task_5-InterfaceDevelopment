@@ -11,8 +11,8 @@ window.onload = function () {
 
   // Graph 1 Evolving 1
   var data = [{
-    values: [19, 26, 55],
-    labels: ['Residential', 'Non-Residential', 'Utility'],
+    labels: ['Renault', 'Ford', 'Volkswagen'],
+    values: [15, 22, 40],
     type: 'pie'
   }];
 
@@ -20,8 +20,8 @@ window.onload = function () {
 
   // Graph 2 Evolving 2
   var data = [{
-    y: [19, 26, 55],
-    x: ['Residential', 'Non-Residential', 'Utility'],
+    x: ['Renault', 'Ford', 'Volkswagen'],
+    y: [15, 22, 40],
     type: 'bar'
   }];
 
@@ -29,16 +29,16 @@ window.onload = function () {
 
   // Graph 3 Evolving 3
   var trace1 = {
-    x: ['giraffes', 'orangutans', 'monkeys'],
-    y: [20, 14, 23],
-    name: 'SF Zoo',
+    x: ['Entornos', 'Hardware', 'Marcas'],
+    y: [7.5, 6, 9],
+    name: 'DAM',
     type: 'bar'
   };
 
   var trace2 = {
-    x: ['giraffes', 'orangutans', 'monkeys'],
-    y: [12, 18, 29],
-    name: 'LA Zoo',
+    x: ['Entornos', 'Hardware', 'Marcas'],
+    y: [7.5, 8, 5],
+    name: 'DAW',
     type: 'bar'
   };
 
@@ -48,24 +48,24 @@ window.onload = function () {
 
   // Graph 4 Evolving 4
   var trace1 = {
-    x: ['giraffes', 'orangutans', 'monkeys'],
-    y: [20, 14, 23],
-    name: 'SF Zoo',
+    x: ['Entornos', 'Hardware', 'Marcas'],
+    y: [7.5, 6, 9],
+    name: 'DAM',
     error_y: {
       type: 'data',
-      array: [0.5, 1, 2],
+      array: [0.5, 1.5, 1],
       visible: true
     },
     type: 'bar'
   };
 
   var trace2 = {
-    x: ['giraffes', 'orangutans', 'monkeys'],
-    y: [12, 18, 29],
-    name: 'LA Zoo',
+    x: ['Entornos', 'Hardware', 'Marcas'],
+    y: [7.5, 8, 5],
+    name: 'DAW',
     error_y: {
       type: 'data',
-      array: [0.5, 1, 2],
+      array: [1.5, 0.5, 3],
       visible: true
     },
     type: 'bar'
